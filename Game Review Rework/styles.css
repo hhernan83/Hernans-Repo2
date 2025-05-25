@@ -68,7 +68,7 @@ li a {
     display: none;
 }
 .drops{
-    border: red solid 1px;
+   
     width:150%;
     margin: 0;
     padding: 0;
@@ -137,6 +137,10 @@ button a{
     overflow: auto;
     padding-bottom: 100px;
     padding-top: 150px;
+    display: flex; 
+     align-items: center; 
+     justify-content: space-evenly;
+     border: green solid 2px;
 }
 .searchbar{
     display: inline-block; 
@@ -146,4 +150,9 @@ button a{
 #search{
     height: 30px;
     width: 200px;
+}
+.searchcontainer{
+    height: 100%;
+    width: 40%;
+    border: black solid 2px;
 }
